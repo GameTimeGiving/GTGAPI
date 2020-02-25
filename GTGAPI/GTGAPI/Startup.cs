@@ -28,7 +28,7 @@ namespace GTGAPI
             app.UseMvc();
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("GTG API Version 1.0");
             });
         }
     }
